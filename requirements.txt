@@ -1,0 +1,10 @@
+# Core dependencies
+fastapi>=0.115.0
+uvicorn>=0.34.0
+newspaper3k>=0.2.8
+pydantic>=2.11.0
+pydantic-settings>=2.2.0
+lxml_html_clean>=0.4.2
+# Optional dependencies for production
+# gunicorn>=21.2.0  # For production WSGI HTTP Server
+# python-dotenv>=1.0.0  # For loading environment variables from .env file
